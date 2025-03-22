@@ -26,6 +26,7 @@ public class Inicio {
             Menu.seleccionaOpcion( );
             opcion = ReadUtil.readInt( );
             tipoEjecutable = TipoEjecutable.getTipoEjecutableById( opcion );
+            System.out.println("Hola mundo!");
 
             if( TipoEjecutable.SALIR.equals( tipoEjecutable ) )
             {
